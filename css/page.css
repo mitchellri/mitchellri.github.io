@@ -1,0 +1,22 @@
+/*	Page Splash	*/
+div.pagesplash {
+	position: relative;
+	height: 75%;
+	min-height: 500px;
+}
+
+/*	Entry	*/
+table.entry {
+	/* width: 75%; */
+	margin-bottom: 25px;
+	margin-top: 25px;
+	background-color: rgba(255,255,255,0.95);
+}
+
+/*div.entry p {
+	width: 25%;
+	float:right;
+	background-color: black;
+	word-wrap: break-word;
+	color: white;
+}*/

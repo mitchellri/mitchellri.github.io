@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+/*	General Format	*/
+body, input[type=submit] {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Open Sans';
+}
+
+p, label, input[type=submit] {
+	font-size: 16px;
+}
+
+h1,h2,h3,h4 {
+	font-family:'Poiret One';
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a i {
+	color:white;
+}
+
+ul{
+	padding:0;
+	margin:0;
+}
+
+ul li {
+	list-style: none;
+	cursor: pointer;
+	border-radius: 5%;
+    -moz-border-radius: 5%;
+    -webkit-border-radius: 5%;
+	float: left;
+	margin: 10px;
+	padding: 10px;
+}
+
+/*	General Animations	*/
+h1,h2,h3,h4,ul li {
+	transition: all 0.3s ease-in-out;
+}
+
+h1:hover {
+	transform: scale(1.01);
+}
+
+h1.noHover:hover {
+	transform: none;
+}
+
+ul li:hover{
+	background-color: black;
+	transform: scale(0.9);
+}
+
+/*	Splash	*/
+div.splash {
+	/* position: relative; */
+	background: url("../images/splash.jpg") no-repeat 50% 70% fixed;
+	height: 75%;
+	min-height: 500px;
+}
+
+div.splash div.box {
+	position: absolute;
+	top: 25%;
+	left: 25%;
+	border: solid white;
+	border-width: 0 25 0 0px;
+	text-transform: uppercase;
+	background-color: rgba(40,40,40,0.85);
+	padding: 50px;
+	color: white;
+	transition: all 0.2s ease-in-out;
+	margin: 25px;
+}
+
+div.splash div.box:hover {
+	border-width: 0 35 0 0px;
+}
+
+div.splash div.box h1 {
+	letter-spacing: 30px;
+	transition: all 0.3s ease-in-out;
+}
+
+div.splash div.box p {
+	font-family:'Poiret One';
+	font-size:18px;
+	word-spacing: 3px;
+	letter-spacing: 2px;
+	transition: all 0.3s ease-in-out;
+	display:inline-block;
+	margin:0;
+}
+
+div.splash div.box p:hover {
+	transform: scale(1.01);
+}
+
+div.splash div.box ul {
+	padding-left: 0;
+}
+
+div.splash div.box ul li:first-child{ 
+	margin-left:0;
+}
+
+div.splash i.arrow {
+	position:absolute;
+	bottom:5%;
+	left: 50%;
+	cursor:pointer;
+	padding:10px;
+	transition: all 0.3s ease-in-out;
+	opacity:.75;
+}
+
+div.splash i.arrow:hover {
+	opacity:1;
+}
+
+div.toolbar {
+	position: fixed;
+	background-color: rgba(40,40,40,0.85);
+	top:0;
+	left:0;
+	float: right;
+	margin: 10px;
+	list-style: none;
+	transition: all 0.3s ease-in-out;
+}
+
+div.toolbar ul li{
+	list-style: none;
+	transition: all 0.3s ease-in-out;
+	border-radius: 5%;
+    -moz-border-radius: 5%;
+    -webkit-border-radius: 5%;
+}
+
+div.toolbar ul li:hover {
+	background-color: black;
+}
+
+div.toolbar ul li a{
+	color:white;
+}
+
+/*	Section	*/
+div.section {
+	float: left;
+}
+
+div.section a i {
+	color:black;
+}
+
+div.contained{
+	margin-left: 12.5%;
+	width: 75%;
+	float: left;
+}
+
+div.section .box:hover {
+	border-width: 0 35 0 0;
+}
+
+div.cont {
+	margin: 25px;
+	float:left;
+}
+
+div.cbox {
+	background-color: rgba(255,255,255,0.85);
+	padding: 25px;
+	width: 250px;
+	height:300px;
+	float:left;
+	transition: all 0.3s ease-in-out;
+}
+
+div.cbox:hover {
+	opacity:0.9;
+}
+
+div.cbox:active {
+	opacity:0.5;
+}
+
+div.section span {
+	font-size: 15pt;
+}
+
+div.cbox  h2:hover,.cbox h4:hover{
+	transform: scale(1.01);
+}
+
+div.cbox h2,.cbox h3,.cbox h4 {
+	margin:0;
+}
+
+div.cbox h4 {
+	color:rgba(0,0,0,.5)
+}
+
+/*.filler {
+	height: 1000%;
+	float:left;
+}*/
+
+.full {
+	width: 100%;
+}
+
+.blur {
+	filter: blur(1px);
+	transition: all 0.2s ease-in-out;
+}
+
+.blur:hover {
+	filter: blur(0px);
+}
+
+.progress {
+	width:100%;
+	display:block;
+	height:2px;
+	background-color: rgba(0,0,0,0.25);
+}
+
+.determinate {
+	position: relative;
+	display:block;
+	height:2px;
+	background-color:black;
+}
+
+.determinate i {
+	position:absolute;
+	top: -7px;
+    right: 0px;
+}
+
+/*	Tooltip	*/
+.toolbar .tooltiptext {
+	font-family:'Poiret One';
+    visibility: hidden;
+    color: rgb(123,123,123);
+    left:110%;
+    position: absolute;
+	transition: all 0.2s ease-in-out;
+}
+
+.tooltip:hover  .tooltiptext {
+    /* visibility: visible; */
+}

@@ -1,0 +1,43 @@
+a {
+	text-decoration:underline;
+	font-weight:bold;
+}
+
+.mbox {
+	background-color: rgba(255,255,255,0.95);
+	padding: 25px;
+	margin: 25%;
+	margin-top:0px;
+	margin-bottom:0px;
+	float:left;
+	max-height: 100%;
+	transition: all 0.3s ease-in-out;
+}
+
+div.resumebar {
+	position: fixed;
+	background-color: rgba(40,40,40,0.85);
+	top:0;
+	right:0;
+	float: right;
+	margin: 10px;
+	list-style: none;
+	transition: all 0.3s ease-in-out;
+}
+
+div.resumebar ul {
+	color:white;
+}
+
+div.resumebar ul li h3 {
+	margin:0;
+}
+
+div.splash {
+	background: url("../images/me.jpg") no-repeat 50% 70% fixed;
+	background-size:cover;
+}
+
+div.splash i.arrow {
+	bottom:30%;
+}

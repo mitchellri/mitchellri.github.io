@@ -1,0 +1,45 @@
+div.img {
+	width: 275px;
+	height:300px;
+	float:left;
+	margin: 25px;
+	border: 1px solid black;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: contain;
+	transition: all 0.2s ease-in-out;
+}
+
+div.img:hover {
+	opacity:.75;
+}
+
+div.filterbar {
+	position: fixed;
+	background-color: rgba(40,40,40,0.85);
+	top:0;
+	right:0;
+	float: right;
+	margin: 10px;
+	list-style: none;
+	transition: all 0.3s ease-in-out;
+}
+
+div.filterbar ul {
+	color:white;
+}
+
+/*	Tooltip	*/
+.filterbar .tooltiptext {
+	font-family:'Poiret One';
+    visibility: hidden;
+    color: rgb(123,123,123);
+    right:110%;
+    position: absolute;
+	transition: all 0.2s ease-in-out;
+	background-color:rgba(255,255,255,.50)
+}
+
+.filterbar .tooltip:hover  .tooltiptext {
+    /* visibility: visible; */
+}
