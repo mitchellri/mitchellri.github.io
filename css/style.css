@@ -10,6 +10,24 @@ body, input[type=submit] {
 	color: #a2a1a0;
 }
 
+::selection {
+    background-color: #1c3c64;
+    color: #b3b2b3;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #1e1f1f;
+}
+
+::-webkit-scrollbar-corner {
+    background-color: #111212;
+}
+
+::-webkit-scrollbar {
+    background-color: #141515;
+    color: #898784;
+}
+
 p, label, input[type=submit] {
 	font-size: 16px;
 }
@@ -114,7 +132,7 @@ div.splash div.box ul {
 	padding-left: 0;
 }
 
-div.splash div.box ul li:first-child{ 
+div.splash div.box ul li:first-child{
 	margin-left:0;
 }
 
@@ -124,7 +142,7 @@ div.splash div.box ul li.text{
 	border-color: rgba(100,100,100,0.8);
 	line-height: 28px;
 }
-div.splash div.box ul li.text:hover{ 
+div.splash div.box ul li.text:hover{
 	background-color: rgba(0,0,0,0);
 	border-color: white!important;
 	transform: none;
@@ -204,7 +222,7 @@ div.cont {
 div.cbox {
 	background-color: rgba(17, 18, 18, 0.85);
 	padding: 25px;
-	width: 250px;
+	width: 225px;
 	height:300px;
 	float:left;
 	transition: all 0.3s ease-in-out;
