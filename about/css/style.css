@@ -1,10 +1,9 @@
-a {
+.mbox a {
 	text-decoration:underline;
 	font-weight:bold;
 }
 
 .mbox {
-	background-color: rgba(255,255,255,0.95);
 	padding: 25px;
 	margin: 25%;
 	margin-top:0px;
@@ -12,6 +11,15 @@ a {
 	float:left;
 	max-height: 100%;
 	transition: all 0.3s ease-in-out;
+}
+
+div.splash {
+	background: url("../images/me.jpg") no-repeat 50% 70% fixed;
+	background-size:cover;
+}
+
+div.splash i.arrow {
+	bottom:30%;
 }
 
 div.resumebar {
@@ -31,13 +39,4 @@ div.resumebar ul {
 
 div.resumebar ul li h3 {
 	margin:0;
-}
-
-div.splash {
-	background: url("../images/me.jpg") no-repeat 50% 70% fixed;
-	background-size:cover;
-}
-
-div.splash i.arrow {
-	bottom:30%;
 }

@@ -28,13 +28,13 @@
 				<h1>Mitchell Rivett</h1>
 				<p>Software Engineer</p>
 				<ul>
-					<a href="https://ca.linkedin.com/in/mitchell-rivett"><li style="border-radius: 25%; -moz-border-radius: 25%; -webkit-border-radius: 25%;"><i class="fa fa-2x fa-linkedin-square"></i></li></a>
-					<a href="https://github.com/mitchellri"><li style="border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%;"><i class="fa fa-2x fa-github"></i></li></a>
+					<a href="https://ca.linkedin.com/in/mitchell-rivett"><li class="fav" style="border-radius: 25%; -moz-border-radius: 25%; -webkit-border-radius: 25%;"><i class="fa fa-2x fa-linkedin-square"></i></li></a>
+					<a href="https://github.com/mitchellri"><li class="fav" style="border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%;"><i class="fa fa-2x fa-github"></i></li></a>
 					<!--<a href="https://www.instagram.com/mitchellate/"><li style="border-radius: 25%; -moz-border-radius: 25%; -webkit-border-radius: 25%;"><i class="fa fa-2x fa-instagram"></i></li></a>-->
 					<!--<a href="https://twitter.com/FeedLono"><li style="border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%;"><i class="fa fa-2x fa-twitter"></i></li></a>-->
-					<a href="mailto:mitchell.rivett@hotmail.com"><li style="float:right;"><i class="fa fa-2x fa-envelope"></i></li></a>
-					<a href="art/index.html"><li style="float:right;"><i class="fa fa-2x fa-paint-brush"></i></li></a>
-					<a href="about/index.html"><li style="float:right;"><i class="fa fa-2x fa-user"></i></li></a>
+					<a href="mailto:mitchell.rivett@hotmail.com"><li><i class="fa fa-2x fa-envelope"></i></li></a>
+					<a href="art/index.html"><li class="text" style="float:right;"><!--<i class="fa fa-2x fa-paint-brush"></i>-->Art</li></a>
+					<a href="about/index.html"><li class="text" style="float:right;"><!--<i class="fa fa-2x fa-user"></i>-->About</li></a>
 				</ul>
 				<a div="nav" href="#experience"><i class="fa fa-2x fa-sort-desc arrow"></i></a>
 			</div>
@@ -229,12 +229,18 @@
 		<!-- Toolbar -->
 		<div class="toolbar">
 			<ul>
-				<a href class="tooltip"><li><i class="fa fa-home"></i></li><h2 class="tooltiptext">Home</h2></a>
-				<a href="about/index.html" class="tooltip"><li><i class="fa fa-user"></i></li><h2 class="tooltiptext">About</h2></a>
-				<a href="art/index.html" class="tooltip"><li><i class="fa fa-paint-brush"></i></li><h2 class="tooltiptext">Art</h2></a>
+				<a href class="tooltip"><li><!--<i class="fa fa-home"></i>-->Home</li></a>
+				<a href="about/index.html" class="tooltip"><li><!--<i class="fa fa-user"></i>-->About</li></a>
+				<a href="art/index.html" class="tooltip"><li><!--<i class="fa fa-paint-brush"></i>-->Art</li></a>
 			</ul>
 		</div>
-
+		
+		<div class="resumebar">
+			<ul>
+				<a href="resume.pdf"><li style="color:white;"><h3>Resume</h3></li></a>
+			</ul>
+		</div>
+		
 		<script src="js/wow.min.js"></script>
 		<script> new WOW().init(); </script>
 	</body>

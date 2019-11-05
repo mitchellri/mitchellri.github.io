@@ -6,6 +6,8 @@ body, input[type=submit] {
 	margin: 0px;
 	padding: 0px;
 	font-family: 'Open Sans';
+	background-color: #111212;
+	color: #a2a1a0;
 }
 
 p, label, input[type=submit] {
@@ -17,7 +19,7 @@ h1,h2,h3,h4 {
 }
 
 a {
-	color: black;
+	color: #a2a1a0;
 	text-decoration: none;
 }
 
@@ -51,7 +53,7 @@ h1:hover {
 }
 
 h1.noHover:hover {
-	transform: none;
+	transform: none!important;
 }
 
 ul li:hover{
@@ -79,6 +81,10 @@ div.splash div.box {
 	color: white;
 	transition: all 0.2s ease-in-out;
 	margin: 25px;
+}
+
+div.splash div.box a{
+	color: white;
 }
 
 div.splash div.box:hover {
@@ -112,6 +118,18 @@ div.splash div.box ul li:first-child{
 	margin-left:0;
 }
 
+div.splash div.box ul li.text{
+	border-width: 2px;
+	border-style: solid;
+	border-color: rgba(100,100,100,0.8);
+	line-height: 28px;
+}
+div.splash div.box ul li.text:hover{ 
+	background-color: rgba(0,0,0,0);
+	border-color: white!important;
+	transform: none;
+}
+
 div.splash i.arrow {
 	position:absolute;
 	bottom:5%;
@@ -126,6 +144,8 @@ div.splash i.arrow:hover {
 	opacity:1;
 }
 
+/* Toolbar */
+
 div.toolbar {
 	position: fixed;
 	background-color: rgba(40,40,40,0.85);
@@ -135,6 +155,10 @@ div.toolbar {
 	margin: 10px;
 	list-style: none;
 	transition: all 0.3s ease-in-out;
+}
+
+div.toolbar a {
+	color: white;
 }
 
 div.toolbar ul li{
@@ -159,7 +183,7 @@ div.section {
 }
 
 div.section a i {
-	color:black;
+	color:rgb(162, 161, 160);
 }
 
 div.contained{
@@ -178,7 +202,7 @@ div.cont {
 }
 
 div.cbox {
-	background-color: rgba(255,255,255,0.85);
+	background-color: rgba(17, 18, 18, 0.85);
 	padding: 25px;
 	width: 250px;
 	height:300px;
@@ -207,8 +231,35 @@ div.cbox h2,.cbox h3,.cbox h4 {
 }
 
 div.cbox h4 {
-	color:rgba(0,0,0,.5)
+	color:rgba(162, 161, 160, 0.5);
 }
+
+div.cbox u {
+	color: #a2a1a0;
+}
+
+/* Resume bar */
+
+div.resumebar {
+	position: fixed;
+	background-color: rgba(40,40,40,0.85);
+	top:0;
+	right:0;
+	float: right;
+	margin: 10px;
+	list-style: none;
+	transition: all 0.3s ease-in-out;
+}
+
+div.resumebar ul {
+	color:white;
+}
+
+div.resumebar ul li h3 {
+	margin:0;
+}
+
+/* Other */
 
 /*.filler {
 	height: 1000%;
