@@ -45,12 +45,12 @@ a i {
 	color:white;
 }
 
-ul{
+ol{
 	padding:0;
 	margin:0;
 }
 
-ul li {
+ol li {
 	list-style: none;
 	cursor: pointer;
 	border-radius: 5%;
@@ -62,7 +62,7 @@ ul li {
 }
 
 /*	General Animations	*/
-h1,h2,h3,h4,ul li {
+h1,h2,h3,h4,ol li {
 	transition: all 0.3s ease-in-out;
 }
 
@@ -74,7 +74,7 @@ h1.noHover:hover {
 	transform: none!important;
 }
 
-ul li:hover{
+ol li:hover{
 	background-color: black;
 	transform: scale(0.9);
 }
@@ -128,21 +128,21 @@ div.splash div.box p:hover {
 	transform: scale(1.01);
 }
 
-div.splash div.box ul {
+div.splash div.box ol {
 	padding-left: 0;
 }
 
-div.splash div.box ul li:first-child{
+div.splash div.box ol li:first-child{
 	margin-left:0;
 }
 
-div.splash div.box ul li.text{
+div.splash div.box ol li.text{
 	border-width: 2px;
 	border-style: solid;
 	border-color: rgba(100,100,100,0.8);
 	line-height: 28px;
 }
-div.splash div.box ul li.text:hover{
+div.splash div.box ol li.text:hover{
 	background-color: rgba(0,0,0,0);
 	border-color: white!important;
 	transform: none;
@@ -179,7 +179,7 @@ div.toolbar a {
 	color: white;
 }
 
-div.toolbar ul li{
+div.toolbar ol li{
 	list-style: none;
 	transition: all 0.3s ease-in-out;
 	border-radius: 5%;
@@ -187,11 +187,11 @@ div.toolbar ul li{
     -webkit-border-radius: 5%;
 }
 
-div.toolbar ul li:hover {
+div.toolbar ol li:hover {
 	background-color: black;
 }
 
-div.toolbar ul li a{
+div.toolbar ol li a{
 	color:white;
 }
 
@@ -269,11 +269,11 @@ div.resumebar {
 	transition: all 0.3s ease-in-out;
 }
 
-div.resumebar ul {
+div.resumebar ol {
 	color:white;
 }
 
-div.resumebar ul li h3 {
+div.resumebar ol li h3 {
 	margin:0;
 }
 
